@@ -1,0 +1,38 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NMOS
+D N-Channel MOSFET
+K Generic N-Channel MOSFET
+$ENDCMP
+#
+$CMP NMOS_GENERIC
+D N-Channel MOSFET
+K Generic N-Channel MOSFET
+$ENDCMP
+#
+$CMP PMOS
+D P-Channel MOSFET
+K Generic P-Channel MOSFET
+$ENDCMP
+#
+$CMP PMOS_GENERIC
+D P-Channel MOSFET
+K Generic P-Channel MOSFET
+$ENDCMP
+#
+$CMP PMOS_GENERIC_2
+D P-Channel MOSFET
+K Generic P-Channel MOSFET
+$ENDCMP
+#
+$CMP POWER_NMOS
+D N-Channel MOSFET
+K Generic N-Channel MOSFET
+$ENDCMP
+#
+$CMP POWER_PMOS
+D N-Channel MOSFET
+K Generic N-Channel MOSFET
+$ENDCMP
+#
+#End Doc Library

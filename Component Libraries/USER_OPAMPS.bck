@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LMV321
+D IC OPAMP GP 1.3MHZ  Rail to Rail output 6V 100uV Offset SOT23-5 
+K IC OPAMP GP 1.3MHZ  Rail to Rail output 6V 100uV Offset SOT23-5 
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/b9/d8/3b/8f/a1/8f/46/01/CD00079372.pdf/files/CD00079372.pdf/jcr:content/translations/en.CD00079372.pdf
+$ENDCMP
+#
+$CMP OPAMP
+D Op amp.
+K AmpliOp Op Amp Opamp
+$ENDCMP
+#
+#End Doc Library

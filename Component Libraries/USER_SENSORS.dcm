@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP9502PT-095E/OT
+D Thermostat, 95°C, Push Pull output, Hysteresis, 3V-6V, 20mA Out
+K Thermostat, 95°C, Push Pull, 3V - 6V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22268a.pdf
+$ENDCMP
+#
+$CMP MCP9700T-E/TT
+D analog temperature sensor ic -40-125C SOT23-3
+K analog temperature sensor ic -40-125C SOT23-3
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001942G.pdf
+$ENDCMP
+#
+#End Doc Library

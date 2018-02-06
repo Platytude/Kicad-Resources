@@ -1,0 +1,20 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 227CKE025MGM
+D CAP ALUM 220UF 20% 25V RADIAL
+K CAP ALUM 220UF 20% 25V RADIAL
+F http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKH_CKE%20series.pdf
+$ENDCMP
+#
+$CMP CP_USER
+D Polarised capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP EEV477M025A9PAA
+D CAP ALUM 470UF 20% 25V SMD
+K CAP ALUM 470UF 20% 25V SMD
+F http://www.kemet.com/Lists/ProductCatalog/Attachments/275/KEM_A4002_EEV.pdf
+$ENDCMP
+#
+#End Doc Library

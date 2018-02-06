@@ -1,0 +1,44 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NMOS
+D N-Channel MOSFET
+K Generic N-Channel MOSFET
+$ENDCMP
+#
+$CMP NMOS_GENERIC
+D N-Channel MOSFET
+K Generic N-Channel MOSFET
+$ENDCMP
+#
+$CMP PMOS
+D P-Channel MOSFET
+K Generic P-Channel MOSFET
+$ENDCMP
+#
+$CMP PMOS_GENERIC
+D P-Channel MOSFET
+K Generic P-Channel MOSFET
+$ENDCMP
+#
+$CMP PMOS_GENERIC_2
+D P-Channel MOSFET
+K Generic P-Channel MOSFET
+$ENDCMP
+#
+$CMP POWER_NMOS
+D N-Channel MOSFET
+K Generic N-Channel MOSFET
+$ENDCMP
+#
+$CMP POWER_PMOS
+D N-Channel MOSFET
+K Generic N-Channel MOSFET
+$ENDCMP
+#
+$CMP PSMN1R4-30YLD
+D N-channel 30 V, 1.4 mΩ logic level MOSFET LFPAK56
+K N-channel 30 V, 1.4 mΩ logic level MOSFET LFPAK56
+F https://assets.nexperia.com/documents/data-sheet/PSMN1R4-30YLD.pdf
+$ENDCMP
+#
+#End Doc Library

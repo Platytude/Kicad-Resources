@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP WSLF2512L5000FEK
+D Current Shunt RES SMD 0.0005 OHM 1% 6W 2512
+K RES SMD 0.0005 OHM 1% 6W 2512
+F http://www.vishay.com/docs/30193/wslf.pdf
+$ENDCMP
+#
+#End Doc Library

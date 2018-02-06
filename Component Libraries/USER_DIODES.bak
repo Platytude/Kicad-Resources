@@ -1,0 +1,48 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# BAT41KFILM
+#
+DEF BAT41KFILM D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "BAT41KFILM" 0 -100 50 H V C CNN
+F2 "Diodes_SMD:D_SOD-523" -950 550 50 H I C CNN
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/5b/cd/d8/0a/45/56/41/6c/CD00130227.pdf/files/CD00130227.pdf/jcr:content/translations/en.CD00130227.pdf" -325 675 50 H I C CNN
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+P 14 0 1 10 -40 0 45 40 45 -40 -35 0 40 30 40 -30 -20 0 35 20 35 -20 -5 0 30 10 30 -10 10 0 30 0 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MM3Z16VT1G
+#
+DEF MM3Z16VT1G D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "MM3Z16VT1G" 0 -100 50 H V C CNN
+F2 "Diodes_SMD:D_SOD-323_HandSoldering" 75 225 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -65 50 -50 35 N
+P 2 0 1 10 -50 -35 -50 35 N
+P 2 0 1 10 -35 -50 -50 -35 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 14 0 1 10 -40 0 45 40 45 -40 -35 0 40 30 40 -30 -15 0 35 20 35 -20 0 0 35 10 30 -10 15 0 30 0 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
