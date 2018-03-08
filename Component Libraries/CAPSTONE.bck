@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LSM9DS1
+D IMU ACCEL/GYRO/MAG I2C/SPI 24LGA
+K IMU ACCEL/GYRO/MAG I2C/SPI 24LGA
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf
+$ENDCMP
+#
+#End Doc Library
