@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP INA180A2
+D Current Sense Amplifier 350kHz 50V/V, 5.5V, 
+K Current Sense Amplifier 350kHz 50V/V, 5.5V, 
+$ENDCMP
+#
 $CMP LMV321
 D IC OPAMP GP 1.3MHZ  Rail to Rail output 6V 100uV Offset SOT23-5 
 K IC OPAMP GP 1.3MHZ  Rail to Rail output 6V 100uV Offset SOT23-5 
