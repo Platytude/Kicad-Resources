@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N7002K-7
+D MOSFET N-CH 60V 0.38A SOT23-3
+K MOSFET N-CH 60V 0.38A SOT23-3
+$ENDCMP
+#
 $CMP NMOS
 D N-Channel MOSFET
 K Generic N-Channel MOSFET
@@ -33,6 +38,12 @@ $ENDCMP
 $CMP POWER_PMOS
 D N-Channel MOSFET
 K Generic N-Channel MOSFET
+$ENDCMP
+#
+$CMP PSMN1R4-30YLD
+D N-channel 30 V, 1.4 mΩ logic level MOSFET LFPAK56
+K N-channel 30 V, 1.4 mΩ logic level MOSFET LFPAK56
+F https://assets.nexperia.com/documents/data-sheet/PSMN1R4-30YLD.pdf
 $ENDCMP
 #
 #End Doc Library

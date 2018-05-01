@@ -5,10 +5,20 @@ D DIODE SCHOTTKY 100V 200MA SOD523
 K DIODE SCHOTTKY 100V 200MA SOD523
 $ENDCMP
 #
+$CMP D_Generic
+D Diode
+$ENDCMP
+#
 $CMP MM3Z16VT1G
 D DIODE ZENER 16V 300MW SOD323
 K DIODE ZENER 16V 300MW SOD323
 F http://www.onsemi.com/pub/Collateral/MM3Z2V4T1-D.PDF
+$ENDCMP
+#
+$CMP STPS160A
+D DIODE SCHOTTKY 60V 1A SMA
+K DIODE SCHOTTKY 60V 1A SMA
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/93/c1/06/0c/63/7c/41/d5/CD00001023.pdf/files/CD00001023.pdf/jcr:content/translations/en.CD00001023.pdf
 $ENDCMP
 #
 #End Doc Library
