@@ -1,3 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP HC05_BLUETOOTH
+D BLUETOOTH MODULE SERIAL PCB
+K BLUETOOTH MODULE SERIAL PCB
+$ENDCMP
+#
+$CMP NORTHBRIDGE_HEATSINK
+D Heatisink 40mmx40mmx46mm, 60mm mounting holes, fan
+K Heatisink 40mmx40mmx46mm, 60mm mounting holes, fan
+$ENDCMP
+#
 #End Doc Library

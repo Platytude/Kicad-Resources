@@ -6,6 +6,11 @@ K CAP ALUM 220UF 20% 25V RADIAL
 F http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKH_CKE%20series.pdf
 $ENDCMP
 #
+$CMP 5ZLH100MEFC6.3X11
+D Polarised capacitor
+K cap capacitor
+$ENDCMP
+#
 $CMP CP_USER
 D Polarised capacitor
 K cap capacitor
