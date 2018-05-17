@@ -20,6 +20,11 @@ K IC VREF SHUNT 2.5V TO92-3
 F http://www.analog.com/media/en/technical-documentation/data-sheets/1004fc.pdf?domain=www.linear.com
 $ENDCMP
 #
+$CMP LTST-C19HE1WT
+D LED RGB DIFFUSED 0606 SMD
+K LED RGB DIFFUSED 0606 SMD
+$ENDCMP
+#
 $CMP MM3Z16VT1G
 D DIODE ZENER 16V 300MW SOD323
 K DIODE ZENER 16V 300MW SOD323

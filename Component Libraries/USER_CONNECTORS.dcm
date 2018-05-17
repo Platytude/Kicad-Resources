@@ -17,6 +17,11 @@ K TERM BLOCK 6POS SIDE ENTRY 5MM
 F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=282836&DocType=Customer+Drawing&DocLang=English
 $ENDCMP
 #
+$CMP B2B-EH-A(LF)(SN)
+D CONN HEADER EH TOP 2POS 2.5MM
+K CONN HEADER EH TOP 2POS 2.5MM
+$ENDCMP
+#
 $CMP CONN_01X06
 D Connector, single row, 01x06
 K connector

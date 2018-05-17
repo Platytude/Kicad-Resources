@@ -1,0 +1,8 @@
+(module LED_RGB_0606 (layer F.Cu) (tedit 5AFB6016)
+  (fp_text reference REF** (at 0 5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value LED_RGB_0606 (at 0 -6) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)

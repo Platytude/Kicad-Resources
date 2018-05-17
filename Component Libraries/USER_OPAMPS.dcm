@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD8293G80
+D IC OPAMP INSTR 500HZ RRO SOT23-8
+K IC OPAMP INSTR 500HZ RRO SOT23-8
+$ENDCMP
+#
 $CMP INA180A2
 D Current Sense Amplifier 350kHz 50V/V, 5.5V, 
 K Current Sense Amplifier 350kHz 50V/V, 5.5V, 
