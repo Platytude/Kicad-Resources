@@ -7,13 +7,18 @@ F http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKH_CKE%20series.pdf
 $ENDCMP
 #
 $CMP 5ZLH100MEFC6.3X11
-D Polarised capacitor
-K cap capacitor
+D CAP ALUM 100UF 20% 35V RADIAL
+K CAP ALUM 100UF 20% 35V RADIAL
 $ENDCMP
 #
 $CMP CP_USER
 D Polarised capacitor
 K cap capacitor
+$ENDCMP
+#
+$CMP EEE-HA1E470WP
+D CAP ALUM 47UF 20% 25V SMD
+K CAP ALUM 47UF 20% 25V SMD
 $ENDCMP
 #
 $CMP EEV477M025A9PAA

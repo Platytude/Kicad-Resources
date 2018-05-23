@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L_s
+D Inductor
+$ENDCMP
+#
+$CMP SRN8040-101M
+D Inductor
+K FIXED IND 100UH 1A 400 MOHM SMD
+F FIXED IND 100UH 1A 400 MOHM SMD
+$ENDCMP
+#
+#End Doc Library
