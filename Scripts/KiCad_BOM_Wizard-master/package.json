@@ -1,0 +1,49 @@
+{
+  "name": "kicad_bom_wizard",
+  "version": "0.0.10",
+  "description": "This KiCad plugin can be used to create custom BOM files based on easy configurable templates files.",
+  "main": "KiCad_BOM_Wizard.js",
+  "keywords": [
+    "kicad",
+    "BOM",
+    "csv",
+    "html"
+  ],
+  "homepage": "http://hashdefineelectronics.com/kicad-bom-wizard/",
+  "license": "GPL-3.0",
+  "author": "Ronald Sousa (http://twitter.com/opticalworm)",
+  "dependencies": {
+    "nightmare": "^2.10.0",
+    "promise": "^7.1.1",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.4.3",
+    "standard": "^6.0.8"
+  },
+  "scripts": {
+    "test": "([ -d \"Test/.tmp\" ] && rm -R \"Test/.tmp\") || sleep 0.5s && mkdir \"Test/.tmp\" && sleep 0.5s && node KiCad_BOM_Wizard.js \"Example/example.xml\" \"Test/.tmp/output.html\" \"HTML\"",
+    "test_pdf": "([ -d \"Test/.tmp\" ] && rm -R \"Test/.tmp\") || sleep 0.5s && mkdir \"Test/.tmp\" && sleep 0.5s && node KiCad_BOM_Wizard.js \"Example/options.json\"",
+    "updateDoc": "jsdoc -P package.json KiCad_BOM_Wizard.js -d Documentation/jsDoc",
+    "lint": "standard KiCad_BOM_Wizard.js",
+    "debug": "node --inspect-brk KiCad_BOM_Wizard.js \"Example/example.xml\" \"Test/.tmp/output.html\" \"HTML\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git"
+  },
+  "engines": {
+    "node": ">=0.10.25"
+  },
+  "bugs": {
+    "url": "https://github.com/HashDefineElectronics/KiCad_BOM_Wizard/issues"
+  },
+  "preferGlobal": true,
+  "files": [
+    "Template/*",
+    "Lib/*",
+    "Example/*",
+    "KiCad_BOM_Wizard.js"
+  ],
+  "bin": "KiCad_BOM_Wizard.js"
+}

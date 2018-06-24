@@ -11,6 +11,10 @@ D CAP ALUM 100UF 20% 35V RADIAL
 K CAP ALUM 100UF 20% 35V RADIAL
 $ENDCMP
 #
+$CMP C3216X5R1V226M160AC
+D Unpolarized capacitor
+$ENDCMP
+#
 $CMP CP_USER
 D Polarised capacitor
 K cap capacitor

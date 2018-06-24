@@ -1,0 +1,17 @@
+{
+  "version" : 2,
+  "outputType" : "pdf",
+  "templatePath" : "HTML_PDF",
+  "outputPath" : "../Test/.tmp/",
+  "outputName" : "output.pdf",
+  "input": "example.xml",
+  "verbose" : false,
+  "pdfOptions": {
+    "showPage": false,
+    "pageSize": "A3",
+    "printBackground" : true,
+    "landscape": true,
+    "marginsType" : "0"
+  },
+  "sort" : {"by": "REF", "ascending": true}
+}

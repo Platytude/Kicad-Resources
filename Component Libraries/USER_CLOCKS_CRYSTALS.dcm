@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CFS-20632768DZFB
+D CRYSTAL 32.7680KHZ 12.5PF T/H
+K CRYSTAL 32.7680KHZ 12.5PF T/H
+$ENDCMP
+#
+$CMP Crystal_Small
+D Two pin crystal
+K Quartz, Resonator, Ceramic, Filter
+$ENDCMP
+#
+#End Doc Library

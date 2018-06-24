@@ -22,9 +22,26 @@ D CONN HEADER EH TOP 2POS 2.5MM
 K CONN HEADER EH TOP 2POS 2.5MM
 $ENDCMP
 #
+$CMP BS-7_2032
+D BS7 HOLDER COINCELL 2032 RETAINRCLIP
+K BS7 HOLDER COINCELL 2032 RETAINRCLIP
+F http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf
+$ENDCMP
+#
+$CMP BS-7_FIX
+D HOLDER COINCELL 2032 RETAINRCLIP
+K BS-7-ND 
+F http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf
+$ENDCMP
+#
 $CMP CONN_01X06
 D Connector, single row, 01x06
 K connector
+$ENDCMP
+#
+$CMP RJHSE-5080
+D CONN MOD JACK 8P8C R/A UNSHLD
+K CONN MOD JACK 8P8C R/A UNSHLD
 $ENDCMP
 #
 $CMP S2B-XH-A(LF)(SN)
