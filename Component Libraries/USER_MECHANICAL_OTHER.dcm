@@ -40,4 +40,9 @@ D Heatisink 40mmx40mmx46mm, 60mm mounting holes, fan
 K Heatisink 40mmx40mmx46mm, 60mm mounting holes, fan
 $ENDCMP
 #
+$CMP SS-12D07-VG
+D SWITCH SLIDE SPDT 300MA 30V
+K SWITCH SLIDE SPDT 300MA 30V
+$ENDCMP
+#
 #End Doc Library

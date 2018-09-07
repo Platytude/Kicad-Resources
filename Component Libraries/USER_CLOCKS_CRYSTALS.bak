@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.3
 DEF CFS-20632768DZFB Y 0 40 N N 1 F N
 F0 "Y" 0 100 50 H V C CNN
 F1 "CFS-20632768DZFB" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
+F2 "Crystals:Crystal_Round_Horizontal_2mm" -100 0 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
  Crystal_
