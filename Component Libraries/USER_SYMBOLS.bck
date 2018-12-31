@@ -1,9 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP IC_GENERIC
-D Gate Driver, Half-Bridge, 2-N-Channel, 10-20V, 600Vboost
-K Gate Driver Half-Bridge 2-N-Channel
-F https://www.diodes.com/assets/Datasheets/DGD2304.pdf
+D IC, 8 pins, template
+K IC generic
 $ENDCMP
 #
 $CMP MCP9502PT-095E/OT
